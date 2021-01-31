@@ -3,7 +3,7 @@ from collections import defaultdict
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-
+#The batman has been here
 allowed_url = ['.+\.cs.uci.edu/.*', '.+\.ics.uci.edu/.*', '.+\.informatics.uci.edu/.*', '.+\.stat.uci.edu/.*', 'today.uci.edu/department/information_computer_sciences/.*']
 allowed_url = [re.compile(x) for x in allowed_url]
 
